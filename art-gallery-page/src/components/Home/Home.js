@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Home() {
   return (
-      <div className='home h-screen flex flex-col items-center md:relative'>
+      <div className='home h-fit flex flex-col items-center md:relative '>
         <div className='w-full flex lg:h-screen'>
           <div className='hidden lg:bg-almostBlack lg:w-1/4 lg:block'></div>
           <div className='bg-gridHerox2m w-full h-60 bg-cover bg-no-repeat md:bg-gridHerox2t md:w-5/6 md:h-[43.75rem] md:bg-contain lg:w-1/2 lg:bg-gridHerox2 lg:bg-cover lg:h-full lg:bg-center'></div>
@@ -13,7 +13,7 @@ export default function Home() {
             <h2 className='font-bigShoulder text-almostBlack text-6xl font-black w-10/12 md:w-full md:text-7xl lg:w-1/2 lg:text-8xl lg:mix-blend-difference lg:text-pureWhite z-50'>MODERN ART GALLERY</h2>
             
             <div className='lg:flex flex-col'>
-                <p className='font-outfit text-lg mt-8 font-light md:w-80 lg:mt-0 lg:text-base lg:leading-8'>
+                <p className='font-outfit text-myGrey text-lg mt-8 font-light md:w-80 lg:mt-0 lg:text-base lg:leading-8'>
                   The arts in the collection of the Modern Art Gallery all started from a spark of inspiration. Will these pieces inspire you? Visit us and find out.
                 </p>
 
