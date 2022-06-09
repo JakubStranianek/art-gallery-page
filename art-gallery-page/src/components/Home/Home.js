@@ -17,9 +17,9 @@ export default function Home() {
                   The arts in the collection of the Modern Art Gallery all started from a spark of inspiration. Will these pieces inspire you? Visit us and find out.
                 </p>
 
-                <div className='button cursor-pointer flex mt-8'>
-                    <div className='textPart w-52 h-20 bg-almostBlack flex items-center justify-center font-bigShoulder font-extrabold text-xl text-pureWhite tracking-btn'>OUR LOCATION</div>
-                    <div className='clickPart w-14 h-20 bg-camel flex items-center justify-center'><svg width="10" height="24" xmlns="http://www.w3.org/2000/svg"><path stroke="#FFF" fill="none" d="m1 0 8 12-8 12"/></svg></div>
+                <div className='group button cursor-pointer flex mt-8'>
+                    <div className='group-hover:bg-camel transition-colors textPart w-52 h-20 bg-almostBlack flex items-center justify-center font-bigShoulder font-extrabold text-xl text-pureWhite tracking-btn'>OUR LOCATION</div>
+                    <div className='group-hover:bg-almostBlack transition-colors clickPart w-14 h-20 bg-camel flex items-center justify-center'><svg width="10" height="24" xmlns="http://www.w3.org/2000/svg"><path stroke="#FFF" fill="none" d="m1 0 8 12-8 12"/></svg></div>
                 </div>
             </div>
           

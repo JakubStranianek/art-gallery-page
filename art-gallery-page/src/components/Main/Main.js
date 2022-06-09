@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Main() {
   return (
-    <div className="main mt-32 flex justify-center">
+    <div className="main mt-32 flex justify-center pb-44">
       <div className="w-5/6 flex flex-col justify-evenly">
         <div className="md:flex md:flex-row-reverse justify-between">
           <div className="h-80 bg-grid1x2m bg-cover bg-center md:bg-grid1x2t md:w-[25rem] md:h-[25rem] lg:bg-grid1x2 lg:md:w-2/3"></div>
